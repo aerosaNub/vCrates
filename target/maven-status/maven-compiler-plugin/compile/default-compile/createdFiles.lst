@@ -1,0 +1,7 @@
+net\vcrates\nathan\files\DataConfig.class
+net\vcrates\nathan\vCrates.class
+net\vcrates\nathan\listener\CrateListener.class
+net\vcrates\nathan\manager\CratesManager.class
+net\vcrates\nathan\files\CratesConfig.class
+net\vcrates\nathan\listener\PlayerListener.class
+net\vcrates\nathan\objects\Crate.class

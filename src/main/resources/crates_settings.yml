@@ -1,0 +1,24 @@
+# This config is for creating and configuring the crates system for the server!
+# Enjoy!
+###############################################################################
+
+Server-Settings:
+  Crate_broadcast:
+    enabled: true
+    messages:
+      - '&e@user has opened @crate!'
+
+Crates:
+  default:
+    blockType: ENDER_CHEST
+    reward_amount: 2
+    when_open:
+      sound: LEVEL_UP
+      effect: EXPLOSION
+    rewards:
+      'Stone Reward':
+        - 'give @user stone 1'
+      'Grass Reward':
+        - 'give @user grass 1'
+      'Diamond Sword Reward':
+        - 'give @user diamond_sword 1'
